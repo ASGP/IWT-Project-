@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.header-container{
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px #9e9b9b;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    height: 70px;
+}
+
+.header h1{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
+.header .main-menu{
+    display: grid;
+    justify-content: right;
+}
+
+.header ul li{
+    display: inline-block;
+    margin: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.subscription-container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.subscription-container h1{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.subscription-container .subscription{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+}
+
+.subscription-container .subscription .section{
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+
+.subscription .section h2{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgb(0, 110, 255);
+}
+
+.subscription .section h4{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.subscription .section p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.subscription .section h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: rgb(0, 110, 255);
+}
+
+.subscription .section button{
+    background-color: rgb(0, 110, 255);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.header-container{
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px #9e9b9b;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    height: 70px;
+}
+
+.header h1{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
+.header .main-menu{
+    display: grid;
+    justify-content: right;
+}
+
+.header ul li{
+    display: inline-block;
+    margin: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.profile-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.profile-container h1{
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.profile-container img{
+    width: 80px;
+}
+
+.profile-container .img-container{
+    text-align: center;
+    opacity: 0.5;
+}
+
+.profile-container label{
+    margin-right: 20px;
+}
+
+.profile-container p{
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #7a7a7a;
+    text-transform: uppercase;
+}
+
+.profile-container input[type=number]{
+    padding: 5px;
+    width: 100%;
+    border: 1px solid rgb(207, 207, 207);
+
+}
+
+.profile-container input[type=text]{
+    padding: 5px;
+    width: 100%;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+
+.profile-container .button-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-container h4{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.profile-container button{
+    background-color: rgb(0, 110, 255);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}

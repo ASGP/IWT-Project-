@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.header-container{
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px #9e9b9b;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    height: 70px;
+}
+
+.header h1{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
+.header .main-menu{
+    display: grid;
+    justify-content: right;
+}
+
+.header ul li{
+    display: inline-block;
+    margin: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.cover{
+    height: 300px;
+    background:  url('../images/cover.jpg') repeat;
+    background-size: cover;
+}
+
+.order-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.order-container h1{
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+
+.order-container .section-one{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.order-container .section-two{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.order-container label{
+    margin-right: 20px;
+}
+
+.order-container p{
+    margin-top: 30px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 15px;
+
+    text-transform: uppercase;
+}
+
+.order-container input[type=number]{
+    padding: 5px;
+    width: 100%;
+    border: 1px solid rgb(207, 207, 207);
+
+}
+
+.order-container input[type=text]{
+    padding: 5px;
+    width: 100%;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.order-container .count-container{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+}
+
+.order-container .pd-container{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+}
+
+.order-container .button-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.order-container button{
+    background-color: rgb(0, 110, 255);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
